@@ -90,7 +90,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(#bae4be ,rgb(80, 199, 80) ,rgb(160, 223, 170));
+    background: linear-gradient(#18ffff ,rgb(80, 199, 80) ,rgb(179, 202, 77));
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -159,14 +159,14 @@
     width: 300px;
 }
 .body{
-    background:linear-gradient(#acd6b7 ,rgb(158, 202, 158) ,rgb(179, 202, 77) )
+    background-color: #ffffff;
     
 }
 .nav{
-    background-color: #29b6b6 ;
+    background-color: #ffffff ;
 }
 #derechos{
-    color: #9dc79d;
+    color: #000000;
     font-family: 'Baloo 2', cursive;
     text-align: center;
     padding-top: 25px;
