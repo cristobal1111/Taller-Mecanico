@@ -25,3 +25,8 @@ h6{
 .font-italic{
     color: cadetblue;
 }
+.cardPerfil{
+    color: black;
+    margin: 5mm;
+    font-family: 'Baloo 2', cursive;
+}
