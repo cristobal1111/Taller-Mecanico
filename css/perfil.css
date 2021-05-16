@@ -48,9 +48,10 @@ h4{
 }
 #nombre{
     animation-name: desplazarseI;
-    animation-duration: 3s;
+    animation-duration: 2s;
     position: relative;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 #perfil{
     background: #025;
@@ -59,9 +60,27 @@ h4{
     width: 80px;
     margin: 20px;
     animation-name: desplazarseD;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+#li{
+    animation-name: desplazarseI;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+#info{
+    animation-name: info;
     animation-duration: 3s;
     position: relative;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
 }
 
 @keyframes desplazarseD{
@@ -75,7 +94,7 @@ h4{
     }
 
     100%{
-        left: 30%;
+        left: 15%;
         background: #904e95;
     }
 }
@@ -90,5 +109,22 @@ h4{
 
     100%{
         right: 25%;
+    }
+}
+
+@keyframes info{
+
+    80%{
+        left: 0;
+        color: black;
+    }
+
+    40%{
+        color: #904e95;
+    }
+
+    0%{
+        left: 40%;
+        color: white;
     }
 }
